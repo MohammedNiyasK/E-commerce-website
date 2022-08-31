@@ -1,0 +1,48 @@
+function myFunction() {
+    var x = document.getElementById("topnav");
+    if (x.className === "nav-list") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav-list";
+    }
+  }
+
+
+
+
+  // <! ----------------js for Toggle form --------->
+
+  var loginform=document.getElementById("login-form");
+  var regform=document.getElementById("reg-form");
+  var indicator=document.getElementById("indicator");
+
+   function register(){
+    loginform.style.transform="translateX(0px)";
+    regform.style.transform="translateX(0px)"
+    indicator.style.transform="translateX(100px)"
+  }
+   function login() {
+    loginform.style.transform="translateX(300px)";
+    regform.style.transform="translateX(300px) "
+    indicator.style.transform="translateX(0px)"
+    
+  }
+
+
+  // <!------------------For product details------------>
+
+  let ProductImg=document.getElementById("ProductImg");
+  let smallImg=document.getElementsByClassName("smallImg");
+
+  smallImg[0].onclick=function(){
+    ProductImg.src=smallImg[0].src
+  }
+  smallImg[1].onclick=function(){
+    ProductImg.src=smallImg[1].src
+  }
+  smallImg[2].onclick=function(){
+    ProductImg.src=smallImg[2].src
+  }
+  smallImg[3].onclick=function(){
+    ProductImg.src=smallImg[3].src
+  }

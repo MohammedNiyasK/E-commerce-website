@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedStore | E-commerce</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="nav-bar">
+                <div class="logo">
+                    <a href="index.html" class="logo-home">
+                        <img src="images/logo.png" alt="" class="logo-img" width="125px">
+                    </a>
+                </div>
+                <nav class="nav-list" id="topnav">
+                    <ul class="nav-menu">
+                        <li class="nav-link">
+                            <a href="index.html" class="nav-name">Home</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="producuts.html" class="nav-name">Products</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="" class="nav-name">About</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="" class="nav-name">Contact</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="Account.html" class="nav-name">Account</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" class="cart" alt="" width="30px" height="30px"></a>
+                
+                <img src="images/menu.png" class="menu-icon" onclick="myFunction()">
+
+            </div>
+
+            <div class="row">
+                <div class="col-1">
+                    <h4>Trade-in-offer</h4>
+                    <h2>Super value Deals</h2>
+                    <h1>On all Products</h1>
+                    <p>save more with coupons & upto 70% off</p>
+                    <a href=""><button>Shop Now</button></a>
+
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Featured categories -->
+    
+        <div class="small-container">
+            <div class="parent">
+                <div class="flex">
+                    <img src="images/category-1.jpg">
+                    
+                   </div>
+                <div class="flex">
+                    <img src="images/category-2.jpg" alt="">
+                   </div>
+                <div class="flex">
+                    <img src="images/category-3.jpg" alt="">
+                   </div>
+
+        </div>
+        
+
+   
+    
+
+    
+
+            <!-- Featured products -->
+
+            <div class="small-container">
+                <h2 class="title">Featured Products</h2>
+                <div class="row">
+                    
+                        <div class="col-4">
+                            <a href="productdetails.html"><img src="images/product-1.jpg" ></a>
+                        
+                        <h4 class="product-name">Red Printed T-shirt</h4>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+
+                        </div>
+                        <p class="product-price"> ₹ 500</p>
+                    </div>
+                    
+                    <div class="col-4">
+                        <img src="images/product-2.jpg" alt="">
+                        <h4 class="product-name">Black Shoe</h4>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+
+                        </div>
+                        <p class="product-price"> ₹ 600</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-3.jpg" alt="">
+                        <h4 class="product-name">puma</h4>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+
+                        </div>
+                        <p class="product-price"> ₹ 300</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-4.jpg" alt="">
+                        <h4 class="product-name">Blue Printed T-shirt</h4>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+
+                        </div>
+                        <p class="product-price"> ₹ 700</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="small-container">
+                <h2 class="title">Latest Products</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/product-5.jpg" alt="">
+                        <h4 class="product-name">Us Polo Assn</h4>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+
+                        </div>
+                        <p class="product-price"> ₹ 700</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-6.jpg" alt="">
+                        <h4 class="product-name">Puma Black</h4>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+
+                        </div>
+                        <p class="product-price"> ₹ 700</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-7.jpg" alt="">
+                        <h4 class="product-name">Socks</h4>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+
+                        </div>
+                        <p class="product-price"> ₹ 700</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-8.jpg" alt="">
+                        <h4 class="product-name">Watch</h4>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+
+                        </div>
+                        <p class="product-price"> ₹ 700</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-8.jpg" alt="">
+                        <h4 class="product-name">Watch</h4>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+
+                        </div>
+                        <p class="product-price"> ₹ 700</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-10.jpg" alt="">
+                        <h4 class="product-name">Mengler</h4>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+
+                        </div>
+                        <p class="product-price"> ₹ 700</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-11.jpg" alt="">
+                        <h4 class="product-name">Roadster</h4>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+
+                        </div>
+                        <p class="product-price"> ₹ 700</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-12.jpg" alt="">
+                        <h4 class="product-name">Slim fit Black</h4>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+
+                        </div>
+                        <p class="product-price"> ₹ 700</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="small-container offer">
+            <div class="row">
+                <div class="col-2 offer-padding">
+                    <img src="images/exclusive.png" alt="" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on RedStore</p>
+                    <h1 class="band">Smart Band 4</h1>
+                    <small>
+                        Everything on one screen.
+                        Approximately 20% further increase in display area*
+                        makes incoming calls,
+                        messages and alerts easier to see and ushers in a
+                        new era of unlimited watch faces.
+                    </small>
+                    <br>
+                    <button class="btn"><a href=""></a>Buy Now</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- testimonial -->
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class='bx bxs-quote-left'></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam soluta labore excepturi natus
+                        libero nulla cum modi consequatur harum amet, placeat porro, doloribus ex atque, dolorem sed
+                        odit iure.</p>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+
+                    </div>
+
+                    <img src="images/user-1.png" class="img">
+                    <h3>Racheal Green</h3>
+                </div>
+                <div class="col-3">
+                    <i class='bx bxs-quote-left'></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam soluta labore excepturi natus
+                        libero nulla cum modi consequatur harum amet, placeat porro, doloribus ex atque, dolorem sed
+                        odit iure.</p>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+
+                    </div>
+
+                    <img src="images/user-2.png" alt="">
+                    <h3>Chandler Bing</h3>
+                </div>
+                <div class="col-3">
+                    <i class='bx bxs-quote-left'></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut totam soluta labore excepturi natus
+                        libero nulla cum modi consequatur harum amet, placeat porro, doloribus ex atque, dolorem sed
+                        odit iure.</p>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+
+                    </div>
+
+                    <img src="images/user-3.png" alt="">
+                    <h3>Monica Geller</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Brands -->
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-godrej.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-coca-cola.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-oppo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-paypal.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-philips.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+                  <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <P>Download App for Android and ios devices</P>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                     <a href="index.html"><img src="images/logo-white.png" ></a>
+                    
+                    <P>Our Purpose Is to sustainably make the pleasure and 
+                        Benefits of sports Accessible to the many.</P>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affilate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022-RedStore</p>
+        </div>
+    </div>              
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
