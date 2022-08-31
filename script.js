@@ -1,11 +1,15 @@
-function myFunction() {
-    var x = document.getElementById("topnav");
-    if (x.className === "nav-list") {
-      x.className += " responsive";
-    } else {
-      x.className = "nav-list";
-    }
-  }
+const menulist=document.getElementById("menu-list");
+          menulist.style.maxHeight="0px";
+
+          function menutoggle(){
+            if(menulist.style.maxHeight=="0px"){
+              menulist.style.maxHeight="3000px"
+
+            }
+            else{
+                menulist.style.maxHeight="0px"
+            }
+          }
 
 
 

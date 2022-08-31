@@ -606,6 +606,7 @@ th:last-child{
         display: flex;
         justify-content: flex-end;
     }
+    
   
 
 
@@ -619,7 +620,8 @@ th:last-child{
         left: 0;
         background: #333;
         width: 100%;
-
+       overflow: hidden;
+       transition: max-height .5s;
     }
 
     .menu-icon {
@@ -628,8 +630,8 @@ th:last-child{
 
     .nav-link {
         display: block;
-        margin-right: 20px;
-        margin-top: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
 
     }
 
@@ -637,16 +639,9 @@ th:last-child{
         color: #fff;
     }
 
-    .nav-list {
-        overflow: hidden;
-        background-color: #333;
+    
 
-
-    }
-
-    .responsive {
-        position: relative;
-    }
+    
 }
 
 /* small devices */
@@ -685,7 +680,7 @@ th:last-child{
         flex-basis: 50%;
     }
     .nav-bar{
-        margin-top: 1rem;
+        padding-top: 1rem;
         gap: .5rem;
     }
 
