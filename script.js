@@ -1,7 +1,15 @@
-function myFunction() {
-    var x = document.getElementById("topnav");
-    
-  }
+const menulist=document.getElementById("menu-list");
+          menulist.style.maxHeight="0px";
+
+          function menutoggle(){
+            if(menulist.style.maxHeight=="0px"){
+              menulist.style.maxHeight="3000px"
+
+            }
+            else{
+                menulist.style.maxHeight="0px"
+            }
+          }
 
 
 
