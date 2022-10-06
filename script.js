@@ -37,16 +37,14 @@ const menulist=document.getElementById("menu-list");
 
   let ProductImg=document.getElementById("ProductImg");
   let smallImg=document.getElementsByClassName("smallImg");
+console.log(smallImg)
 
-  smallImg[0].onclick=function(){
-    ProductImg.src=smallImg[0].src
+  
+  for(i=0;i<smallImg.length;i++){
+    smallImg[i].addEventListener('click',(e)=>{
+      ProductImg.setAttribute('src',e.target.src)
+    })
   }
-  smallImg[1].onclick=function(){
-    ProductImg.src=smallImg[1].src
-  }
-  smallImg[2].onclick=function(){
-    ProductImg.src=smallImg[2].src
-  }
-  smallImg[3].onclick=function(){
-    ProductImg.src=smallImg[3].src
-  }
+
+
+ 
